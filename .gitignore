@@ -1,0 +1,55 @@
+###################################
+# Build & CMake outputs
+###################################
+build/
+**/build/
+*.log
+*.bin
+*.hex
+*.elf
+*.map
+*.lst
+
+# Ninja / CMake
+.ninja*
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+
+###################################
+# Zephyr / SDK / Generated
+###################################
+# Zephyr build + export outputs
+modules/.cache/
+zephyr/.cache/
+.cache/
+tmp/
+
+# Zephyr package registry (local machine state)
+~/.cmake/packages/Zephyr
+~/.cmake/packages/ZephyrUnittest
+
+###################################
+# macOS / IDE / Editor Trash
+###################################
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.idea/
+.vscode/
+*.swp
+*.swo
+
+## West
+bootloader
+build
+modules
+nfed
+nrf
+nrfxlib
+pcf85063a
+tools
+zephyr
