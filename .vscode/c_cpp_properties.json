@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/zephyr/include"
+            ],
+            "defines": []
+        }
+    ],
+    "version": 4
+}

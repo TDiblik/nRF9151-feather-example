@@ -1,0 +1,18 @@
+{
+  "files.associations": {
+    "*.embeddedhtml": "html",
+    "*.json.liquid": "json",
+    "*.yaml.liquid": "yaml",
+    "*.md.liquid": "markdown",
+    "*.js.liquid": "liquid-javascript",
+    "*.css.liquid": "liquid-css",
+    "*.scss.liquid": "liquid-scss",
+    "*.html": "liquid",
+    "*.svelte": "svelte",
+    "nrf_modem_at.h": "c",
+    "nrf_modem_lib.h": "c",
+    "log.h": "c",
+    "thread_def.h": "c",
+    "console.h": "c"
+  }
+}
