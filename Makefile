@@ -62,7 +62,7 @@ build:
 build-clean:
 	@$(EXPORT_ENV); \
 	echo "Running full clean build for $(BOARD)..."; \
-	rm -rf "$$HOME/Library/Caches/zephyr" "$$HOME/.cache/zephyr" "$(APP_DIR)/build"; \
+	$(MAKE) clean; \
 	west update; \
 	west zephyr-export; \
 	west build -p always -b "$(BOARD)" --sysbuild "$(APP_DIR)" -DBOARD_ROOT="$(BOARD_ROOT)"
